@@ -1,5 +1,5 @@
 # cp_mds_licensing
-Get gateways count per type (Single, Cluster, VSX) per Domain (CMA) in an Multi-Domain Security Management (MDSM) environment
+Get gateways count per type (Single, Cluster, VSX) per Domain (CMA) in a Multi-Domain Security Management (MDSM) environment
 
 ## Content
 `cpapi` - Check Point Management API Python SDK v1.12
