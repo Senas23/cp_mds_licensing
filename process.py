@@ -108,7 +108,7 @@ def process_licensing(tmp_dict):
         # Go over VS GW
         if obj_type == cp_host.vs.value:
           if len(fnmatch.filter(cluster_members, '*_' + obj_name)) > 0:
-            dict_results[obj_domain_name]['VS']['Members'] += fnmatch.filter(cluster_members, '*_' + obj_name)
+            dict_results[obj_domain_name]['VS']['Members'] += cluster_members
             dict_results[obj_domain_name]['VS']['Count'] += len(cluster_members)
             dict_results[obj_domain_name]['CountTotal'] += len(cluster_members)
         # Go over HA GW Cluster
