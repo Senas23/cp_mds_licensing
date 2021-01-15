@@ -45,6 +45,12 @@ chmod u+x process.py
 Run:
 ```
 ./process.py
+Enter server IPv4 address/hostname/FQDN: 10.1.1.101
+Enter username: admin
+Enter password: ********
+[+] API login successful
+[+] API call execution in progress, patience grasshopper ...
+...
 ```
 
 #### Execute with paramters for offline processing of the output that is in JSON format
