@@ -75,4 +75,4 @@ Primary MDS Total GWs: 121      Standby MDS Total GWs: 112
 
 ## Development Environment
 The kit is developed using Python version 3.6<br>
-Tested against MDS (Multi Domain Server) with Management API v1.5
+Tested against R80.30 MDS (Multi Domain Server) with Management API v1.5
