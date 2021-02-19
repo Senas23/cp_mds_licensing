@@ -1,5 +1,5 @@
 # cp_mds_licensing
-Get gateways count per type (Single, Cluster, VSX) per Domain (CMA) in a Multi-Domain Security Management (MDSM) environment
+Get gateways count per type (Single, Cluster, VSX) per Domain (CMA/DMS) in a Multi-Domain Security Management (MDSM) environment
 
 ## Content
 `cpapi` - Check Point Management API Python SDK v1.12
@@ -29,7 +29,7 @@ https://github.com/CheckPointSW/cp_mgmt_api_python_sdk/
 
 #### Check Point Management API Call Documentation
 ```
-https://sc1.checkpoint.com/documents/latest/APIs/index.html#web/show-gateways-and-servers~v1.6
+https://sc1.checkpoint.com/documents/latest/APIs/index.html#web/show-gateways-and-servers~v1.5
 ```
 
 ### Usage
@@ -75,4 +75,4 @@ Primary MDS Total GWs: 121      Standby MDS Total GWs: 112
 
 ## Development Environment
 The kit is developed using Python version 3.6<br>
-Tested against MDS (Multi Domain Server) with Management API v1.6
+Tested against MDS (Multi Domain Server) with Management API v1.5
