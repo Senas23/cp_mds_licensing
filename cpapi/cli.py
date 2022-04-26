@@ -124,7 +124,6 @@ def simple_yaml(root, as_string=True):
 
     if as_string:
         return '\n'.join(simple_yaml(root, False) + [''])
-        return
 
     if not isinstance(root, (dict, list)) or not root:
         return [safe_string(root)]
