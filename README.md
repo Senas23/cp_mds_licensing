@@ -5,15 +5,6 @@ Get gateways count per type (Single, Cluster, VSX) per Domain (CMA/DMS) in a Mul
 `cpapi` - Check Point Management API Python SDK v1.12
 
 ## Instructions
-### Repository install from a remote machine
-Install the repository by using the pip tool or by downloading the repository.
-
-#### Install with pip
-Run:
-```
-pip install git+https://github.com/Senas23/cp_mds_licensing
-```
-
 #### Download the repository
 Clone the repository with this command:
 ```
